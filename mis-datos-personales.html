@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis datos personales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1 style="font-family: 'Josefin Sans', sans-serif;">FORMULARIO</h1>
+        <form action>
+            <label for="nombre">
+                <span>¿Cuál es tu nombre?</span>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+            </label>
+            <br>
+            <hr>
+            <label for="Fecha de nacimiento">
+                <span>¿Cuál es tu fecha de nacimiento?</span>
+                <input type="date" id="fecha" name="fecha">
+            </label>
+            <br>
+            <hr>
+            <label for="Edad">
+                <span>¿Cuál es tu edad?</span>
+                <input type="number" id="fecha" name="fecha" autocomplete="name" required>
+            </label>
+            <br>
+            <hr>
+            <label for="Número de celular">
+                <span>¿Cuál es tu número telefónico?</span>
+                <input type="tel" id="número" name="número" placeholder="Tu número de teléfono">
+            </label>
+            <br>
+            <hr>
+            <label for="Correo electrónico">
+                <span>¿Cómo es tu correo electrónico?</span>
+                <input type="email" id="correo" name="correo">
+            </label>
+            <br>
+            <hr>
+            <label for="Género">
+                <span>¿Cuál es tu género?</span>
+                <input list="Género">
+                <datalist id="género">
+                    <option value="Femenino">Práctica</option>
+                    <option value="Masculino">Teoría</option>
+                    <option value="Otro">Telemática</option>
+                </datalist>
+            </label>
+            <br>
+            <hr>
+            <label for="Dirección">
+                <span>¿Cuál es tu tipo de sangre?</span>
+                <input type="text" id="direción" name="dirección" placeholder="(femenino, masculino, otro)">
+            </label>
+        </form>
+    </main>
+</body>
+</html>
